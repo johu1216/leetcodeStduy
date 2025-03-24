@@ -69,7 +69,7 @@ public class P2255_CountPrefixesOfGivenString {
         P2255_CountPrefixesOfGivenString solution = new P2255_CountPrefixesOfGivenString();
         
         // 测试用例1
-        String[] words1 = {"a", "b", "c", "ab", "bc", "abc"};
+        String[] words1 = {"a", "b1", "c", "ab", "bc", "abc"};
         String s1 = "abc";
         System.out.println("测试用例1 (我的方法): " + solution.myMethod(words1, s1));
         System.out.println("测试用例1 (学习方法): " + solution.learnedMethod(words1, s1));
