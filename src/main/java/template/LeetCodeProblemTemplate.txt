@@ -1,0 +1,66 @@
+package template;
+
+/**
+ * LeetCode 第[题号]题: [题目名称]
+ * 
+ * [题目描述]
+ * 
+ * 示例 1：
+ * 输入：[输入示例1]
+ * 输出：[输出示例1]
+ * 解释：
+ * [解释示例1]
+ * 
+ * 示例 2：
+ * 输入：[输入示例2]
+ * 输出：[输出示例2]
+ * 解释：
+ * [解释示例2]
+ * 
+ * 提示：
+ * - [约束条件1]
+ * - [约束条件2]
+ */
+public class LeetCodeProblemTemplate {
+    
+    /**
+     * 我的解决方案
+     * @param [参数1] [参数1说明]
+     * @param [参数2] [参数2说明]
+     * @return [返回值说明]
+     */
+    public [返回类型] myMethod([参数类型] [参数名], ...) {
+        // TODO: 实现自己的解决方案
+        
+        return [默认返回值];
+    }
+    
+    /**
+     * 学习后的优化解决方案
+     * @param [参数1] [参数1说明]
+     * @param [参数2] [参数2说明]
+     * @return [返回值说明]
+     */
+    public [返回类型] learnedMethod([参数类型] [参数名], ...) {
+        // TODO: 实现学习后的解决方案
+        
+        return [默认返回值];
+    }
+    
+    // 测试
+    public static void main(String[] args) {
+        LeetCodeProblemTemplate solution = new LeetCodeProblemTemplate();
+        
+        // 测试用例1
+        [参数类型] [参数名1] = [测试输入1];
+        System.out.println("测试用例1 (我的方法): " + solution.myMethod([参数名1]));
+        System.out.println("测试用例1 (学习方法): " + solution.learnedMethod([参数名1]));
+        
+        // 测试用例2
+        [参数类型] [参数名2] = [测试输入2];
+        System.out.println("测试用例2 (我的方法): " + solution.myMethod([参数名2]));
+        System.out.println("测试用例2 (学习方法): " + solution.learnedMethod([参数名2]));
+        
+        // 可以添加更多测试用例
+    }
+}
