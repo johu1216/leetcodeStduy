@@ -74,7 +74,7 @@ public class P2255_CountPrefixesOfGivenString {
         System.out.println("测试用例1 (我的方法): " + solution.myMethod(words1, s1));
         System.out.println("测试用例1 (学习方法): " + solution.learnedMethod(words1, s1));
         
-        // 测试用例2
+        // 测试用例21
         String[] words2 = {"a", "a"};
         String s2 = "aa";
         System.out.println("测试用例2 (我的方法): " + solution.myMethod(words2, s2));
